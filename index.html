@@ -1,0 +1,97 @@
+<!-- Place in document head -->
+<audio id="intromusic" autoplay muted>
+	<source src="intro.mp3" />
+</audio>
+
+<script>
+	console.log("Hello World");
+	document.body.addEventListener("mousemove", function () {
+		try {
+			var audio = document.getElementById("intromusic");
+			audio.play();
+			audio.muted = false;
+		} catch (e) {
+			console.log(e);
+		}
+	});
+</script>
+
+<link rel="stylesheet" href="starwarsintro.css" />
+
+<!-- Place in Body where you'd like intro to appear -->
+<div class="star-wars-intro">
+	<!-- Blue Intro Text -->
+	<p class="intro-text">Please click anywhere to continue....</p>
+	<!-- Logo Image or Text goes in here -->
+	<h2 class="main-logo">
+		<img src="TITLE.png" />
+	</h2>
+
+	<!-- All Scrolling Content Goes in here -->
+	<div class="main-content">
+		<div class="title-content">
+			<p class="content-header">
+				Dr. WESLEY BECKNER UNLEASHED<br /><br />Cohort 5
+			</p>
+
+			<p class="content-body">
+				The dead speak! The galaxy has heard a mysterious broadcast, a
+				threat of ANALYTIC REVENGE in the sinister voice of the (data)
+				SCIENTIST DR. WESLEY BECKNER.
+				<!-- new line -->
+				<br /><br />
+				GENERAL SINYA dispatches secret agents to gather intelligence
+				from cohort 5, while CHANCELLOR MANASA works on her finding
+				cosine similarities between nerds and their imperial military
+				uniforms.
+				<br /><br />
+				Meanwhile, EMPEROR CHUAN, the last hope of the Full-stack
+				Organization, trains for battle against the diabolical TECH
+				INDUSTRY, and SUPREME LEADER TEJA rages in search of the phantom
+				python scripts, determined to destroy any threat to the
+				DevOps.....
+				<br />
+				<br />
+				The following are some of the objections of Dr. Wesley leaving
+				his GIX empire from fellow Cohort 5 Storm Troopers and other
+				personnel:
+				<br />
+				<br />
+				Thank you for being such an awesome teacher! The Python
+				foundations class has been super helpful and I learned a lot :)
+				Best of luck on your future endeavors!<br />
+				- Janice
+				<br />
+				<br />
+				While I'm sad to see you go I'm excited for your new
+				opportunity! You set a very high bar for instruction quality and
+				presentation. Outside of class, I really appreciated our
+				conversations and have highly valued your advice and
+				perspective. Last, I want to one more time say thank you for
+				your support to help shape and improve the MSTI program. Good
+				Luck in your future endeavors, I hope our paths cross again!
+				<br />
+				- Garrett
+				<br />
+				<br />
+				Thanks for your effort in teaching us and I did learn a lot from
+				him. Wish him all the best!!! - GENERAL Hsin-Ya Thank you wesley
+				for being such an awesome mentor! I really appreciate it, you've
+				taught me a lot and BASS4LYFE
+				<br />
+				- EMPEROR cHUAN
+				<br />
+				<br />
+				Wesley, It was a pleasure to learn from you. You’ve been a part
+				of many careers at GIX, Hope you find great success in your next
+				role!<br />
+				- CHANCELLOR Manasa <br /><br />Thanks for all the teachings and
+				conversations! See you in tech! <br />- Teja<br /><br />
+				Hope you have a prosperous conquest ahead! May the whole empire
+				bow down to the superior analytical power of Python, empowered
+				by Numpy and Pandas, and their vision disillusioned by
+				Matplotlib.
+			</p>
+		</div>
+	</div>
+</div>
