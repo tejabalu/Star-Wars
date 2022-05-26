@@ -104,7 +104,7 @@ html {
 .star-wars-intro .title-content {
 	position: absolute;
 	top: 100%;
-	animation: scroll 120s linear 4s forwards;
+	animation: scroll 200s linear 4s forwards;
 }
 
 .star-wars-intro .title-content > .content-header {
